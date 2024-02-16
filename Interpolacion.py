@@ -114,3 +114,10 @@ df = pd.DataFrame(data)
 print("Velocidad")
 print(df)
 
+
+
+''''
+Conclusión:
+
+La función Numpy muestra valores más precisos que la función de interpolación de lagrange.
+''''
