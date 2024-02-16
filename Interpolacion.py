@@ -15,13 +15,26 @@ L1L2= np.array([2.975,2.950,2.9,2.825,2.725,2.625,2.500,2.350,2.200])
 #Angulos a interpolar
 a=30
 b=55
+
+#Valores 30°
+
+print("El valor interpolado para L1",a,"en fuerza es:", L1L2*(20/interNumpy(x,L1L2,a)))
+print("El valor interpolado para L2",a,"en fuerza es:", 20/interNumpy(x,L3L2,a))
+print("El valor interpolado para L3",a,"en fuerza es:", L3L2/(20/interNumpy(x,L3L2,a)))
+
 print("El valor interpolado para",a,"grados en x/L2 en fuerza es:",interNumpy(x,xL2,a))
 print("El valor interpolado para",a,"grados en L3/L2 en fuerza es:",interNumpy(x,L3L2,a))
-print("El valor interpolado para",a,"grados en L1/L2 en fuerza es:",interNumpy(x,L3L2,a))
+print("El valor interpolado para",a,"grados en L1/L2 en fuerza es:",interNumpy(x,L1L2,a))
+
+#Valores 55°
+
+print("El valor interpolado para L1",b,"en fuerza es:", L1L2*(20/interNumpy(x,L1L2,b)))
+print("El valor interpolado para L2",b,"en fuerza es:", 20/interNumpy(x,L3L2,b))
+print("El valor interpolado para L3",b,"en fuerza es:", L3L2/(20/interNumpy(x,L3L2,b)))
 
 print("El valor interpolado para",b,"grados en x/L2 en fuerza es:",interNumpy(x,xL2,b))
 print("El valor interpolado para",b,"grados en L3/L2 en fuerza es:",interNumpy(x,L3L2,b))
-print("El valor interpolado para",b,"grados en L1/L2 en fuerza es:",interNumpy(x,L3L2,b))
+print("El valor interpolado para",b,"grados en L1/L2 en fuerza es:",interNumpy(x,L1L2,b))
 
 
 #Cargamos Vectores velocidad
