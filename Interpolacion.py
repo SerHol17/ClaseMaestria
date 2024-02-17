@@ -58,8 +58,6 @@ print(df)
 #Interpolación y graficas con Lagrange
 
 def interLagrange(x,y,a):
-
-
   plt.figure('1')
   plt.plot(x,y,'x', mew=2, label='Datos')
   plt.xlabel("X")
